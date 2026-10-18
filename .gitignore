@@ -1,0 +1,45 @@
+# Unreal Engine generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# IDE and generated project files
+.vs/
+.idea/
+.vscode/
+*.sln
+*.slnx
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.xcodeproj
+*.xcworkspace
+
+# Local audit/render scratch data
+tmp/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Local documentation, reports and helper tools
+/Docs/
+/output/
+/Scripts/
+/Source/HW1Editor/
+/Source/HW1UMGTools/
+/.vsconfig
+/Config/DefaultEditorPerProjectUserSettings.ini
+
+# Keep only the submission README among Markdown documents
+*.md
+!/README.md
